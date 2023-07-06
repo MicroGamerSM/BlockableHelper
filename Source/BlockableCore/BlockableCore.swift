@@ -1,6 +1,6 @@
 import Foundation
 
-public class BlockableApp: Identifiable {
+public class BlockableApp: Codable, Identifiable {
   public var id: UUID
   public var name: String
 
