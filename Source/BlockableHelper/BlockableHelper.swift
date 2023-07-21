@@ -1,12 +1,6 @@
 import Foundation
+import UniformTypeIdentifiers
 
-public class BlockableApp: Codable, Identifiable {
-  public var id: UUID
-  public var name: String
-
-  ///Creates a BlockableApp with the given name.
-  public init(_ name: String) {
-    self.name = name
-    self.id = UUID()
-  }
+public extension UTType {
+  public static var blockableUI: UTType = UTType("micro.blockable.ui")
 }
