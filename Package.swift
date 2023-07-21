@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "BlockableCore",
+    name: "BlockableHelper",
     products: [
-        .library(name: "BlockableCore", targets: ["BlockableCore"])
+        .library(name: "BlockableHelper", targets: ["BlockableHelper"])
     ],
     targets: [
-        .target(name: "BlockableCore", dependencies: [])
+        .target(name: "BlockableHelper", dependencies: [])
     ],
     swiftLanguageVersions: [.v5]
 )
